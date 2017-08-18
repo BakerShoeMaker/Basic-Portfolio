@@ -53,7 +53,8 @@ h1{
 }
 h4 span{
     color: white;
-    font: bold 16px Arial, Helvetica, san-serif;
+    font: bold 12px Arial, Helvetica, san-serif;
+    height: 15px;
     letter-spacing: -1px;
     background: #4aaaa5;
     padding: 10px;
@@ -105,20 +106,9 @@ a:link, a:visited, a:hover, a:active {
 
 }
 
-.headerNav{
-    text-align: right;
-    padding-right: 15px;
+.headerNav{text-align: right;padding-right: 15px;}
 
-}
 
-/*.h1_dHollaway{*/
-    /*background-color: #4aaaa5;*/
-    /*color: white;*/
-    /*padding-right: 40px;*/
-    /*padding-left: 40px;*/
-    /*padding-top: 25px;*/
-    /*padding-bottom: 25px;*/
-/*}*/
 #AboutMe{
     margin: 30px;
     padding-bottom: 30px;
@@ -134,20 +124,90 @@ a:link, a:visited, a:hover, a:active {
     padding-bottom: 30px;
     padding-right: 30px;
     padding-left: 30px;
-    background-color: red;
+    background-color: white;
     width: 550px;
     float: left;
 
 }
 
 #Portfolio{
-
     margin: 30px;
     padding-bottom: 30px;
     padding-right: 30px;
     padding-left: 30px;
-    background-color: red;
+    background-color: white;
     width: 550px;
+    float: left;
+}
+.imagePortfolio{
+
+    float:left;
+    padding: 10px;
+}
+.image1{
+    position: absolute;
+    top: 292px;
+    left:115px;
+    /*opacity:.75;*/
+    display: inline;
+    float: left;
+}
+.image2{
+    position: absolute;
+    top: 290px;
+    left:330px;
+    /*opacity:.75;*/
+    display: inline;
+    float: left;
+}
+.image3{
+    position: absolute;
+    top: 440px;
+    left:115px;
+    /*opacity:.75;*/
+    display: inline;
+    float: left;
+}
+.image4{
+    position: absolute;
+    top: 440px;
+    left:360px;
+    /*opacity:.75;*/
+    display: inline;
+    float: left;
+}
+
+.image3{
+    position: absolute;
+    top: 440px;
+    left:115px;
+    /*opacity:.75;*/
+    display: inline;
+    float: left;
+}
+.image4{
+    position: absolute;
+    top: 440px;
+    left:360px;
+    /*opacity:.75;*/
+    display: inline;
+    float: left;
+}
+
+.image5{
+    position: absolute;
+    top: 590px;
+    left:135px;
+    /*opacity:.75;*/
+    display: inline;
+    float: left;
+}
+.image6{
+    position: absolute;
+    top: 592px;
+    left:315px;
+    /*opacity:.75;*/
+    display: inline;
     float: left;
 }
 #ConnectWithMe {
@@ -155,10 +215,9 @@ a:link, a:visited, a:hover, a:active {
     margin-right: 30px;
     background-color: #ffffff;
     padding-bottom: 20px;
-    width: 300px;
     height: 200px;
-    width:200px;
-    float:right;
+    width:250px;
+    float:left;
 }
 
 .button{
@@ -171,6 +230,7 @@ a:link, a:visited, a:hover, a:active {
     margin-top: 10px;
     cursor: pointer;
     width: 115px;
+    display: block;
 }
 .footerborder {
     padding: 5px;
@@ -178,6 +238,27 @@ a:link, a:visited, a:hover, a:active {
     background-color: #4aaaa5;
     display: flex;
     width: 960px;
+}
+
+.formContact{
+    color:grey;
+    text-align: left;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin:50px;
+}
+
+.inputText{
+
+    display: block;
+    width: 90%;
+
+}
+.formTextTop p {
+
+    display:block;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding: 0px;;
+    margin:1px;
 }
 footer{
     background-color:#667 ;
